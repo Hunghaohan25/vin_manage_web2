@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local uploads
+backend/uploads/avatars/*
+!backend/uploads/avatars/.gitkeep
